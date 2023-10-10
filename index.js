@@ -32,8 +32,47 @@ function convertToString(name){
 
 var name = convertToString("My Name is Mamun");
 console.log(name);
-// second done
+// second task done
 
-// third start 
+// third task start 
+var student = marksStudent(39);
+function marksStudent(marks){
+    var marks;
+    if(marks >= 80){
+        // console.log("A+");
+        return "A+";
+        
+    }
+    else if(marks >= 75){
+        // console.log("A");
+        return "A";
+    }
+    else if(marks >= 70){
+        //  console.log("A-");
+        return "A-";
+    }
+    else if(marks >= 60 || marks >= 65){
+        // console.log("B+");
+        return "B+";
+    }
+    else if(marks >= 50){
+        // console.log("B");
+        return "B";
+    }
+    else if(marks >= 40){
+        // console.log("C");
+        return "C";
+    }
+    else if(marks <=40){
+        // console.log("Fale korso");
+        return "Fale Korso";
+    }
+
+    return;
+}
+console.log(student)
+// third task done 
+
+
 
 
